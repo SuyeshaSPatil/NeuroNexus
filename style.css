@@ -1,0 +1,85 @@
+/* General page settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #e6e6fa, #fdfdfd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form card */
+  .form-container {
+    background-color: #fff;
+    padding: 40px;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(93, 87, 254, 0.2);
+    border: 1px solid #ececec;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #5d57fe;
+    margin-bottom: 25px;
+  }
+  
+  /* Input styles */
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #5d57fe;
+    outline: none;
+  }
+  
+  /* Gender radio group */
+  .gender-options {
+    margin-top: 8px;
+    display: flex;
+    gap: 15px;
+    color: #444;
+    font-size: 14px;
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: linear-gradient(to right, #5d57fe, #8571f5);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background: linear-gradient(to right, #4a42e8, #6b5de8);
+  }
+  
